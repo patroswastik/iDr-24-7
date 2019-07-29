@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">iDr 24/7</string>
+    <string name="string_name" />
+    <string name="clickMe">click Me</string>
+    <string name="ClickMe">ClickMe</string>
+    <string-array name="specializations">
+        <item>Category</item>
+        <item>Neurologist</item>
+        <item>Neurosurgeon</item>
+        <item>Surgeon</item>
+        <item>Cardiologist</item>
+        <item>Dermatologist</item>
+        <item>Gynecologist</item>
+    </string-array>
+    <string name="title_activity_dsearch">DSearch</string>
+</resources>

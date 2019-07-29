@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.swast.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/captures"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/captures"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DSearch">
+            <intent-filter>
+                <action android:name=".DSearch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DoctorSignUp">
+            <intent-filter>
+                <action android:name=".DoctorSignUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DoctorLogin">
+            <intent-filter>
+                <action android:name=".DoctorLogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PatientSignUp">
+            <intent-filter>
+                <action android:name=".PatientSignUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PatientLogin">
+            <intent-filter>
+                <action android:name=".PatientLogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DView">
+            <intent-filter>
+                <action android:name=".DView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EDdetails">
+            <intent-filter>
+                <action android:name=".EDdetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PSearch">
+            <intent-filter>
+                <action android:name=".PSearch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PView">
+            <intent-filter>
+                <action android:name=".PView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PBook">
+            <intent-filter>
+                <action android:name=".PBook" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ddetails">
+            <intent-filter>
+                <action android:name=".ddetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EPdetails">
+            <intent-filter>
+                <action android:name=".EPdetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pdetails">
+            <intent-filter>
+                <action android:name=".Pdetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DoctorHome">
+            <intent-filter>
+                <action android:name=".DoctorHome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PatientHome">
+            <intent-filter>
+                <action android:name=".PatientHome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".homePage">
+            <intent-filter>
+                <action android:name=".homePage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
